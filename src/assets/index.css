@@ -1,0 +1,74 @@
+.phone_content,
+.furniture_content,
+.parts_content,
+.server_content{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.hr{
+	width: 100%;
+	height: 100px;
+	background-color: #f9f9f9;
+}
+
+.topbar-menu {
+	position: absolute;
+	z-index: 5;
+	width: 100%;
+	height: 71px;
+	display: flex;
+	justify-content: space-around;
+	background-color: transparent;
+}
+.topbar-menu .menu-left img{
+	width: 150px;
+	height: 71px;
+}
+.topbar-menu .menu{
+	list-style: none;
+	display: flex;
+}
+.topbar-menu .menu li {
+	padding: 0 30px;
+	line-height: 71px;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+.topbar-menu .menu li:hover {
+	color: orangered;
+	text-decoration: underline;
+}
+.topbar-menu .menu-right{
+	position: relative;
+	height: 71px;
+	padding-top: 15px;
+}
+.topbar-menu .menu-right .search{
+	width: 75%;	
+	cursor: pointer;
+}
+.topbar-menu .menu-right .icon{
+	float: right;
+	text-align: center;
+	height: 40px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.topbar-menu .menu-right .icon span{
+	font-size: 26px;
+	color: #fff;
+}
+.topbar-menu .menu-right .icon span:hover{
+	color: orangered;
+}
+
+
+
+.float_window_content{
+	position: absolute;
+	right: 50px;
+	border-radius: 30px;
+}
